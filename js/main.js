@@ -1,3 +1,6 @@
+var headingId = "#heading1";
+var contentId = "#mainContent1";
+
 function setActive(){
 	//$(document).ready(function () {
    /* $('.nav li a').click(function(e) {
@@ -31,9 +34,9 @@ $('.nav li').click(function(event){
 
 function about(){
 	console.log("About work");
-	$(".cover-heading").text("About");
-	//$(".content").text("I am a graduate student in Penn State University.");
-	$(".content").load("data/about.txt");
+	$(headingId).text("About");
+	//$(contentId).text("I am a graduate student in Penn State University.");
+	$(contentId).load("data/about.txt");
 
 	/*jQuery.get('data/projects.txt', function(data) {
     console.log(data);
@@ -43,19 +46,19 @@ function about(){
 
 function projects(){
 	console.log("Projects work");
-	$(".cover-heading").text("Projects");
-	$(".content").load("data/projects.txt");
+	$(headingId).text("Projects");
+	$(contentId).load("data/projects.txt");
 }
 
 function resume(){
 	console.log("Resume work");
-	$(".cover-heading").text("Resume");
-    $(".content").load("data/resume.txt");
+	$(headingId).text("Resume");
+    $(contentId).load("data/resume.txt");
 }
 
 function contact(){
 	console.log("Contact work");
-	$(".cover-heading").text("Contact");
-    $(".content").load("data/contact.txt");
+	$(headingId).text("Contact");
+    $(contentId).load("data/contact.txt");
 }
 

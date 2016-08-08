@@ -1,1 +1,21 @@
-My Projects are as following - 
+My Projects are as following -
+
+1) Visualization Tool for genomic sequences using Hadoop and MapReduce - Handled 500 MB of
+genomic data and achieved a 6x speed. Published in ICACCE – 15.
+
+2) Classification of Multi-Genomic Sequences – Used different classifiers on different sample sizes and
+features. More than 99% accuracy observed. Published in ICCCA – 15.
+
+3) Disease Prediction System – Developed a web application to predict diseases and cure-time using
+relative learning. Published in ICACCE – 15.
+
+4) Compaction of De Bruijn Graph – Based on unitigs, generating a compact de bruijn graph.
+
+5) Enhancements to the UNIX command “traceroute” – Added additional features to open source code.
+
+6) Website for an online game event - Used by 600 participants at the NITK TechFest ’12.
+
+7) Social Network Visualization and Analysis – Clustering and Analysis of users’ Facebook friends based
+on different centrality measures. Visualization using JavaScript.
+
+8) Sports Quiz – A Java App with backend in MySQL which allows the user to play a quiz for multiple sports.

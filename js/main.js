@@ -35,13 +35,25 @@ $('.nav li').click(function(event){
 function about(){
 	console.log("About work");
 	$(headingId).text("About");
-	//$(contentId).text("I am a graduate student in Penn State University.");
+    // jQuery.get('data/about.txt', function(data) {
+    //     //process text file line by line
+    //     $(contentId).html(data);
+    // });
 	$(contentId).load("data/about.txt");
+
 
 	/*jQuery.get('data/projects.txt', function(data) {
     console.log(data);
 });*/
 
+}
+function intern(){
+    $(headingId).text("Internships");
+    $(contentId).load("data/intern.txt");
+}
+function assistantships(){
+    $(headingId).text("Assistantships");
+    $(contentId).load("data/assistantships.txt");
 }
 
 function projects(){
@@ -61,4 +73,5 @@ function contact(){
 	$(headingId).text("Contact");
     $(contentId).load("data/contact.txt");
 }
+
 

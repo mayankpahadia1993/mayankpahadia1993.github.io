@@ -9,7 +9,7 @@
     <meta name="author" content="">
    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Mayank Pahadia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -35,51 +36,84 @@
   </head>
 
   <body>
-
+  <nav>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mayank Pahadia</a>
+    </div>
+    <ul class="nav masthead-nav">
+      <li><a href="#" onclick="setActive();about();">About</a></li>
+      <li><a href="#" onclick="setActive();intern();">Internships</a></li>
+      <li><a href="#" onclick="setActive();assistantships();">Assistantships</a></li>
+      <li><a href="#" onclick="setActive();projects();">Projects</a></li>
+      <li><a href="#" onclick="setActive();resume();">Resume</a></li>
+      <li><a href="#" onclick="setActive();contact();">Contact</a></li>
+      
+    </ul>
+  </div>
+</nav>
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
-        <div class="cover-container">
-
+        
+      <!--
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
+
+              <h5 class="masthead-brand">
+                  <img id="coverPic" src="img/cover.jpeg" alt="<Cover Pic>" style="width:120px;height:100px;">
+                  Mayank Pahadia, 22<br/>
+                Software Developer and Adventurer<br/>
+              </h5>
+
+            
+              
+              
               <nav>
                 <ul class="nav masthead-nav">
                   <li><a href="#" onclick="setActive();about();">About</a></li>
+                  <li><a href="#" onclick="setActive();intern();">Internships</a></li>
+                  <li><a href="#" onclick="setActive();assistantships();">Assistantships</a></li>
                   <li><a href="#" onclick="setActive();projects();">Projects</a></li>
                   <li><a href="#" onclick="setActive();resume();">Resume</a></li>
                   <li><a href="#" onclick="setActive();contact();">Contact</a></li>
+                  
                 </ul>
               </nav>
+              
             </div>
           </div>
+-->
+          
 
+<div class="cover-container">
+          
           <div class="inner cover">
+
             <h1 class="cover-heading" id="heading1"></h1>
-            <p class="lead" >
-            <strong>
-            Mayank Pahadia, 22<br/>
-            Software Developer and Adventurer
-            </strong>
-            </p>
+            
             <div class="lead content" id="mainContent1">
               Hi welcome to my website! Please select a tab.
             </div>
-
+            <!--
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
+            -->
           </div>
-
+</div>
           <div class="mastfoot">
             <div class="inner">
-              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by Mayank Pahadia.</p>
+            <p>
+              <a href="https://www.linkedin.com/in/mayank-pahadia-53728798">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/mayank-pahadia-53728798">Facebook</a>
+              <a href="https://www.linkedin.com/in/mayank-pahadia-53728798">Github</a>
+              </p>
             </div>
           </div>
 
-        </div>
+        
 
       </div>
 

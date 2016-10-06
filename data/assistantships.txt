@@ -1,4 +1,7 @@
+Graduate Research Assistant, Pennsylvania State University, PA (August – December 2016)
+- Working on Error Correction in DNA Assemblers.
+
 Graduate Research Assistant, Pennsylvania State University, PA (January 2016 – June 2016)
- Worked on Anomaly Detection systems using unsupervised learning using Python.
+- Worked on Anomaly Detection systems using unsupervised learning using Python.
 Graduate Teaching Assistant, Pennsylvania State University, PA (August – December 2015)
- Handled lab sessions for “Introduction to C++ Programming”, for a class of 100 students.
+- Handled lab sessions for “Introduction to C++ Programming”, for a class of 100 students.

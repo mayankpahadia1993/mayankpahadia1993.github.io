@@ -1,6 +1,6 @@
 Tech Intern, Business Insider, New York City
 
-  	- Working on a chart building tool for editors using d3js and google charts
+  	- Working on a visualization tool for editors using d3js and google charts
 	- Working on a web app for the internal analytics using angular2, Elasticsearch and d3js
 
 Undergraduate Research Intern, Pennsylvania State University, PA (Summer 2014)

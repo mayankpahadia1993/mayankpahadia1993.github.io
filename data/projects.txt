@@ -1,4 +1,4 @@
-My Projects are as following -
+My Projects -
 
 1) Visualization Tool for genomic sequences using Hadoop and MapReduce - Handled 500 MB of
 genomic data and achieved a 6x speed. Published in ICACCE – 15.
@@ -19,3 +19,11 @@ relative learning. Published in ICACCE – 15.
 on different centrality measures. Visualization using JavaScript.
 
 8) Sports Quiz – A Java App with backend in MySQL which allows the user to play a quiz for multiple sports.
+
+9) Soccer Result Prediction –Predicting the result of a soccer game using the odds given by bet makers.
+
+10) Classification and Feature Selection of EEG Dataset – Performed selective feature selection and classification on a dataset with more than 50000 features and multiple classes.
+
+11) Predicting survival on Titanic – Prediction for a person, if he would have survived on titanic or not?
+
+12) College Department Management System – A website which allows to manage the whole department with different user types like student, teacher and head of department and different functionalities.
